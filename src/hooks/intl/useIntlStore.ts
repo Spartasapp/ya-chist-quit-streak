@@ -26,6 +26,8 @@ export const useIntlStore = create<StoreState>((set) => ({
       [TRANSLATION_KEY.APP_TITLE]: "Abstinence tracker",
       [TRANSLATION_KEY.TODAY]: "Today",
       [TRANSLATION_KEY.DAY_ENDS_IN]: "Day ends in",
+      [TRANSLATION_KEY.DAILY_RESET_DISCLAIMER]:
+        "Mark your results every 24 hours, otherwise your progress will be reset!",
       [TRANSLATION_KEY.DASHBOARD]: "Dashboard",
       [TRANSLATION_KEY.STATS]: "Stats",
       [TRANSLATION_KEY.HISTORY]: "History",
@@ -64,6 +66,8 @@ export const useIntlStore = create<StoreState>((set) => ({
       [TRANSLATION_KEY.APP_TITLE]: "Трекер воздержания",
       [TRANSLATION_KEY.TODAY]: "Сегодня",
       [TRANSLATION_KEY.DAY_ENDS_IN]: "До конца дня",
+      [TRANSLATION_KEY.DAILY_RESET_DISCLAIMER]:
+        "Отмечай результаты каждые 24 часа, иначе прогресс будет сброшен!",
       [TRANSLATION_KEY.DASHBOARD]: "Главная",
       [TRANSLATION_KEY.STATS]: "Статистика",
       [TRANSLATION_KEY.HISTORY]: "История",

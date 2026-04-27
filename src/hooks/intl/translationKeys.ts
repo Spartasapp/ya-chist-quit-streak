@@ -3,6 +3,7 @@ export const TRANSLATION_KEY = {
   APP_TITLE: "appTitle",
   TODAY: "today",
   DAY_ENDS_IN: "dayEndsIn",
+  DAILY_RESET_DISCLAIMER: "dailyResetDisclaimer",
   DASHBOARD: "dashboard",
   STATS: "stats",
   HISTORY: "history",

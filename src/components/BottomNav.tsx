@@ -10,8 +10,8 @@ interface BottomNavProps {
 }
 
 const tabs: Array<{ key: TabKey; labelKey: TranslationKey;  }> = [
-  { key: "dashboard", labelKey: TRANSLATION_KEY.DASHBOARD },
   { key: "stats", labelKey: TRANSLATION_KEY.STATS },
+  { key: "dashboard", labelKey: TRANSLATION_KEY.DASHBOARD },
   { key: "history", labelKey: TRANSLATION_KEY.HISTORY },
 ];
 

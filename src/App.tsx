@@ -20,7 +20,7 @@ import alcoholIcon from "./assets/alcohol.png";
 import smokeIcon from "./assets/smoke.png";
 
 const habits: HabitMeta[] = [
-  { key: "alcohol", label: "Alcohol", icon: alcoholIcon, accent: "#60a5fa" },
+  { key: "alcohol", label: "Alcohol", icon: alcoholIcon, accent: "#34d399" },
   { key: "cigarettes", label: "Cigarettes", icon: smokeIcon, accent: "#34d399" },
 ];
 const EMPTY_ENTRIES: DailyEntry[] = [];
